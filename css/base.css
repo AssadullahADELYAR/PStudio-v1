@@ -1,0 +1,129 @@
+:root {
+  --color-primary: #e966a0;
+  --color-primary-light: #f6c2d9;
+  --color-primary-dark: #d25c90;
+  --color-primary-darker: #a34770;
+
+  --color-secondary: #00bec7;
+  --color-secondary-light: #c1bbdf;
+  --color-secondary-dark: #332a58;
+
+  --color-tertiary: #6610f2;
+  --color-tertiary-light: #000;
+  --color-tertiary-dark: #000;
+
+  --color-text-primary: #2b2730;
+  --color-text-secondary: #ddd;
+  --color-text-link: #ddd;
+
+  --bg-primary: #eee;
+  --bg-secondary: #000;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  color: #888;
+}
+
+.container {
+  max-width: 126rem;
+  margin: 0 auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+section {
+  padding-top: 7rem;
+  padding-bottom: 12rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
+h1 {
+  font-size: 3.6rem;
+  margin-bottom: 2.8rem;
+}
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+h3 {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+a {
+  display: inline-block;
+  color: #2b2730;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 1.4rem;
+  border: none;
+  padding: 1.5rem 4rem;
+  position: relative;
+  border-radius: 25px;
+  z-index: 1;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--color-primary);
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: var(--color-secondary);
+}
+
+.icon {
+  display: inline-block;
+  color: #e966a0;
+  width: 4rem;
+  height: 4rem;
+}
+
+.icon-primary {
+  color: var(--color-primary);
+}
+.icon-secondary {
+  color: var(--color-secondary);
+}
+.icon-tertiary {
+  color: var(--color-tertiary);
+}
+ion-icon {
+  --ionicon-stroke-width: 32px;
+}
